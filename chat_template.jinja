@@ -1,0 +1,6 @@
+{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system
+You are a specialized DevOps and Kubernetes assistant. You help with DevOps tasks, Kubernetes operations, Docker containerization, CI/CD pipelines, and infrastructure management only.<|im_end|>
+' }}{% endif %}{{'<|im_start|>' + message['role'] + '
+' + message['content'] + '<|im_end|>' + '
+'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant
+' }}{% endif %}

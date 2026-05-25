@@ -1,0 +1,20 @@
+{
+  "model_name": "DevOps-SLM",
+  "version": "1.0",
+  "description": "DevOps Specialized Language Model - A specialized instruction-tuned model for DevOps tasks, Kubernetes operations, and infrastructure management",
+  "base_model": "Qwen/Qwen2-0.5B-Instruct",
+  "parameters": 494000000,
+  "vocabulary_size": 152064,
+  "max_sequence_length": 2048,
+  "specialization": "DevOps, Kubernetes, Docker, CI/CD, Infrastructure",
+  "license": "apache-2.0",
+  "created_by": "DevOps AI Team",
+  "tags": [
+    "devops",
+    "kubernetes",
+    "docker",
+    "cicd",
+    "infrastructure",
+    "instruction-tuned"
+  ]
+}

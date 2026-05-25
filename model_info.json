@@ -1,0 +1,26 @@
+{
+  "model_name": "DevOps-SLM",
+  "version": "1.0",
+  "description": "DevOps Specialized Language Model - A specialized instruction-tuned model for DevOps tasks, Kubernetes operations, and infrastructure management",
+  "architecture": "Custom transformer-based causal language model with instruction tuning",
+  "training_data": "DevOps documentation, Kubernetes examples, Docker guides, CI/CD tutorials, infrastructure automation",
+  "parameters": 494000000,
+  "vocabulary_size": 152064,
+  "max_sequence_length": 2048,
+  "training_approach": "Instruction tuning on DevOps domain data",
+  "performance": "Optimized for DevOps instruction following and task completion",
+  "use_cases": [
+    "Kubernetes YAML generation and management",
+    "Docker containerization guidance",
+    "CI/CD pipeline design and implementation",
+    "Infrastructure automation and provisioning",
+    "DevOps troubleshooting and debugging",
+    "Cloud platform operations and management"
+  ],
+  "license": "apache-2.0",
+  "created_by": "DevOps AI Research Team",
+  "base_architecture": "Transformer-based causal language model",
+  "specialization": "DevOps, Kubernetes, Docker, CI/CD, Infrastructure",
+  "instruction_capability": "Follows complex DevOps instructions and provides step-by-step guidance",
+  "domain_restriction": "Only responds to DevOps, Kubernetes, Docker, CI/CD, and infrastructure questions"
+}
